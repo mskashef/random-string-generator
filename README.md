@@ -13,3 +13,8 @@ console.log(myRSG.new()); // 79DD28
 console.log(myRSG.new()); // 88F402
 console.log(myRSG.new()); // 42CF9C
 ```
+
+or width a custom length at each time: 
+```js
+console.log(myRSG.new(5)); // 6AE7F
+```

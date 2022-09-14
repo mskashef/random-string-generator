@@ -65,3 +65,18 @@ test("Test: Error", () => {
   const len = '25'
   expect(RandomStringGenerator.bind(null, chars, len)).toThrow(TypeError)
 });
+
+
+test("Multiple length", () => {
+  let chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+  const len = 32
+  const myRSG = RandomStringGenerator(chars, len)
+  for (let i = 0; i < 10; i++) {
+    const len = Math.floor(Math.random() * 100)
+    const string = myRSG.new(len)
+    expect(string.length).toBe(len)
+    for (let j = 0; j < len; j++) {
+      expect(chars.includes(string.charAt(j))).toBe(true)
+    }
+  }
+});
