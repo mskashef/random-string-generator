@@ -11,14 +11,12 @@
     "test": "jest"
   },
   "keywords": [
-    "merge",
-    "sorted",
-    "multiple",
-    "sort",
-    "list",
-    "lists",
-    "array",
-    "arrays"
+    "random",
+    "string",
+    "generate",
+    "generator",
+    "uid",
+    "uuid"
   ],
   "author": "mskashef",
   "license": "MIT",
