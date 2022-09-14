@@ -1,0 +1,28 @@
+{
+  "name": "@mskashef/random-string-generator",
+  "version": "1.0.0",
+  "description": "Random String Generator",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mskashef/random-string-generator"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "merge",
+    "sorted",
+    "multiple",
+    "sort",
+    "list",
+    "lists",
+    "array",
+    "arrays"
+  ],
+  "author": "mskashef",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
