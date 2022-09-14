@@ -1,6 +1,6 @@
 {
   "name": "@mskashef/random-string-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Random String Generator",
   "main": "index.js",
   "repository": {
